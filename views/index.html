@@ -1,0 +1,38 @@
+<!DOCTYPE = <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <style>
+        form {
+            margin-top: 100px;
+            margin-left: 350px;
+            text-align: center;
+            height: 300px;
+            width: 300px;
+        }
+        h1{
+            color:aliceblue;
+        }
+        body{
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/login" method="post">
+        <h1>Welcome</h1><br>
+        <div class="form-group">
+            <input type="text" size="40" placeholder="Type your email" name="email" class="form-control">
+            <br />
+            <input type="password" size="40" placeholder="Type your password" name="password" class="form-control">
+            <br />
+        </div>
+        <button type="submit" class="btn btn-dark">Login</button>
+    </form>
+</body>
+
+</html>
